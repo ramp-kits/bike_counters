@@ -2,6 +2,14 @@
 
 ## Getting started
 
+### Download the data,
+
+Download the data files,
+ - [train.parquet](https://github.com/rth/bike_counters/releases/download/v0.1.0/train.parquet)
+ - [test.parquet](https://github.com/rth/bike_counters/releases/download/v0.1.0/test.parquet)
+
+and put them to into the data folder.
+
 ### Install
 
 To run a submission and the notebook you will need the dependencies listed

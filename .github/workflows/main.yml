@@ -22,6 +22,12 @@ jobs:
               python -m pip install --upgrade pip
               pip install -r requirements.txt
 
+        - name: Download data files
+          run: |
+              cd data/
+              wget https://github.com/rth/bike_counters/releases/download/v0.1.0/test.parquet
+              wget https://github.com/rth/bike_counters/releases/download/v0.1.0/train.parquet
+
         - name: Run ramp-test
           run: |
               ramp-test
