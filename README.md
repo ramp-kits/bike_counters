@@ -1,4 +1,4 @@
-# RAMP starting kit on the air passengers dataset
+# RAMP starting kit on the bike counter dataset
 
 ## Getting started
 
