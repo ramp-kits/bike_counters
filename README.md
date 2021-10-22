@@ -1,11 +1,4 @@
-# bike-counters
-Bike counters RAMP starting kit 
-
 # RAMP starting kit on the air passengers dataset
-
-
-[!uild Status](https://travis-ci.org/ramp-kits/air_passengers.svg?branch=master)](https://travis-ci.org/ramp-kits/air_passengers)
-
 
 ## Getting started
 
