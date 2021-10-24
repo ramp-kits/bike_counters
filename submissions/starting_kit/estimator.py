@@ -22,7 +22,7 @@ def _encode_dates(X):
 
 def get_estimator():
     date_encoder = FunctionTransformer(_encode_dates)
-    date_cols = ['year', 'month', 'day', 'weekday', 'hour']
+    date_cols = ["year", "month", "day", "weekday", "hour"]
 
     categorical_encoder = OneHotEncoder(handle_unknown="ignore")
     categorical_cols = ["counter_name", "site_name"]
