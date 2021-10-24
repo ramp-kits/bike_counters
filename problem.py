@@ -29,7 +29,7 @@ def get_cv(X, y, random_state=0):
 def _read_data(path, f_name):
     data = pd.read_parquet(os.path.join(path, "data", f_name))
     # Sort by date first, so that time based cross-validation would produce correct results
-    data = data.sort_values(['date', 'counter_name'])
+    data = data.sort_values(["date", "counter_name"])
     y_array = data[_target_column_name].values
     X_df = data.drop([_target_column_name, "bike_count"], axis=1)
     return X_df, y_array

@@ -1,4 +1,4 @@
-name: Test ramp kit
+name: main
 
 on:
     push:
