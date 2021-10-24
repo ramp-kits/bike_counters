@@ -1,5 +1,7 @@
 # RAMP starting kit on the air passengers dataset
 
+![GH Actions](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+
 ## Getting started
 
 ### Download the data,
