@@ -26,13 +26,18 @@ It is recommended to create a new virtual environement for this project. For ins
 ```bash
 conda create -n bikes-ramp python=3.9
 conda activate bikes-ramp
+pip install -r requirements.txt
 ```
 
 
 ### Challenge description
 
 Get started on this RAMP with the
-[dedicated notebook](bike_counters_starting_kit.ipynb).
+[dedicated notebook](bike_counters_starting_kit.ipynb) using:
+
+```bash
+jupyter notebook ./bike_counters_starting_kit.ipynb
+```
 
 ### Test a submission
 
