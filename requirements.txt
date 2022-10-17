@@ -1,5 +1,6 @@
 pandas
-matplotlib
+# Workaround for https://github.com/mwaskom/seaborn/issues/3072
+matplotlib<3.6.1
 seaborn
 pyarrow
 scikit-learn
