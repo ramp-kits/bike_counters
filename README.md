@@ -33,7 +33,15 @@ pip install -r requirements.txt
 ### Challenge description
 
 Get started on this RAMP with the
-[dedicated notebook](bike_counters_starting_kit.ipynb) using:
+[dedicated notebook](bike_counters_starting_kit.ipynb).
+
+First install [Jupyter](https://jupyter.org/):
+
+```bash
+pip install jupyter
+```
+
+then launch the notebook using:
 
 ```bash
 jupyter notebook ./bike_counters_starting_kit.ipynb

@@ -6,4 +6,3 @@ pyarrow
 scikit-learn
 folium
 ramp-workflow
-jupyter-lab
