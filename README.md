@@ -22,7 +22,7 @@ following command-line:
 pip install -U -r requirements.txt
 ```
 
-It is recommended to create a new virtual environement for this project. For instance, with conda,
+It is recommended to create a new virtual environment for this project. For instance, with conda,
 ```bash
 conda create -n bikes-ramp python=3.9
 conda activate bikes-ramp
@@ -143,3 +143,9 @@ ramp-test --help
 
 You can find more information regarding `ramp-workflow` in the
 [dedicated documentation](https://paris-saclay-cds.github.io/ramp-docs/ramp-workflow/stable/using_kits.html)
+
+You can find the description of the columns present in the `external_data.csv`
+in `parameter-description-weather-external-data.pdf`. For more information about this
+dataset see the [Meteo France
+website](https://donneespubliques.meteofrance.fr/?fond=produit&id_produit=90&id_rubrique=32)
+(in French).
