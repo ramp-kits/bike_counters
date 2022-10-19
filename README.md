@@ -143,3 +143,9 @@ ramp-test --help
 
 You can find more information regarding `ramp-workflow` in the
 [dedicated documentation](https://paris-saclay-cds.github.io/ramp-docs/ramp-workflow/stable/using_kits.html)
+
+You can find the desctiption of the columns present in the `external_data.csv`
+in `parameter-description-weather-files.pdf`. For more information about this
+dataset see the [Meteo France
+website](https://donneespubliques.meteofrance.fr/?fond=produit&id_produit=90&id_rubrique=32)
+(in French).
