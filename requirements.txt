@@ -5,3 +5,4 @@ pyarrow
 scikit-learn
 folium
 ramp-workflow
+osfclient
