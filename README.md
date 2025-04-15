@@ -6,11 +6,8 @@
 
 ### Download the data,
 
-Download the data files,
- - [train.parquet](https://github.com/ramp-kits/bike_counters/releases/download/v0.1.0/train.parquet)
- - [test.parquet](https://github.com/ramp-kits/bike_counters/releases/download/v0.1.0/test.parquet)
-
-and put them to into the data folder.
+Download the data files with the download_data script. It will untar the
+ archive and put the train and test file in the data folder.
 
 ### Install
 
