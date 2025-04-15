@@ -24,9 +24,7 @@ jobs:
 
         - name: Download data files
           run: |
-              cd data/
-              wget https://github.com/ramp-kits/bike_counters/releases/download/v0.1.0/test.parquet
-              wget https://github.com/ramp-kits/bike_counters/releases/download/v0.1.0/train.parquet
+              python download_data.py
 
         - name: Run ramp-test
           run: |

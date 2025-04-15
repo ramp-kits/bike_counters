@@ -54,9 +54,7 @@ def get_connection_info(get_private, username=None, password=None):
 def get_one_element(container, name):
     "Get one element from OSF container with a comprehensible failure error."
     elements = [f for f in container if f.name == name]
-    container_name = (
-        container.name if hasattr(container, "name") else CHALLENGE_NAME
-    )
+    container_name = container.name if hasattr(container, "name") else CHALLENGE_NAME
     assert len(elements) == 1, (
         f"There is no element named {name} in {container_name} from the RAMP "
         "OSF account."
