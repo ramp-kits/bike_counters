@@ -19,7 +19,7 @@ to install those dependencies inside this new environment.
 
 You can create a new conda environement named `bikes-ramp` using:
 ```bash
-conda create --name bikes-ramp python=3.9
+conda create --name bikes-ramp python=3.12
 ```
 
 and then use this new environment install the dependencies in it using pip:
